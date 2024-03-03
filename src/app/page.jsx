@@ -30,8 +30,7 @@ const Homepage = () => {
               <span className={nanum.className}>채준형</span> 입니다.
             </p>
           </div>
-          <p className="md:text-xl"></p>
-          <div className="w-full flex gap-4">
+          <div className="w-full flex gap-4 justify-center lg:justify-start">
             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
               <Link href="/about">더 알아보기</Link>
             </button>
