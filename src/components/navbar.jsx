@@ -9,7 +9,6 @@ const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
   { url: "/portfolio", title: "Portfolio" },
-  { url: "/contact", title: "Contact" },
 ];
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -79,7 +78,7 @@ const Navbar = () => {
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">Lama</span>
+          <span className="text-white mr-1">June</span>
           <span className="bg-white text-black w-12 h-8 rounded flex items-center justify-center">
             .dev
           </span>
@@ -87,23 +86,11 @@ const Navbar = () => {
       </div>
       {/* SOCIALS */}
       <div className="hidden md:flex gap-4 w-1/3 justify-end">
-        <Link href="#">
+        <Link href="https://github.com/Develsopher" target="_blank">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="#">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="#">
+        <Link href="https://www.instagram.com/localhost3ooo" target="_blank">
           <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="#">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="#">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="#">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
       {/* responsive menu */}

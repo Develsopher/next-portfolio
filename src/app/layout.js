@@ -1,12 +1,12 @@
-import { Inter } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Noto_Sans_KR({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Portfolio App",
-  description: "The bse animated portfolio page",
+  title: "JunHyeong Chae's Portfolio",
+  description: "A portfolio of web front-end development",
 };
 
 export default function RootLayout({ children }) {
